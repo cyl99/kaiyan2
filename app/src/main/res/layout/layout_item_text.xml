@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+<com.cyl.kaiyan.customview.CustomTextView
+    android:id="@+id/item_text"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layout_margin="@dimen/dp_6"
+    android:text="weekend special"
+    android:textColor="@color/colorBlack"
+    android:textSize="@dimen/sp_20"
+    android:textStyle="bold" />
+
+</LinearLayout>

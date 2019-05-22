@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Kaiyan</string>
+    <string name="everydays">每日精选</string>
+    <string name="findmore">发现更多</string>
+    <string name="hot">热门排行</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="huancun">登陆或注册</string>
+    <string name="login">登陆或注册</string>
+    <string name="collection">离线缓存</string>
+    <string name="download">观看记录</string>
+    <string name="fuli">热映电影</string>
+    <string name="share">分享</string>
+    <string name="feedback">更多</string>
+    <string name="about">关于</string>
+    <string name="them">主题</string>
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp_205">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_205">
+
+        <ImageView
+            android:id="@+id/iv_bg"
+            android:scaleType="centerCrop"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_205" />
+
+        <RelativeLayout
+            android:id="@+id/rl_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_selector"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_30"
+                android:gravity="center"
+                android:text="测试"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/sp_20" />
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv1"
+                android:layout_marginTop="@dimen/dp_2"
+                android:gravity="center"
+                android:text="动画  / 16'29"
+                android:textColor="@color/colorWhite" />
+        </RelativeLayout>
+
+    </FrameLayout>
+    <!-- <com.facebook.drawee.view.SimpleDraweeView
+         android:id="@+id/iv_bg"
+         android:layout_width="match_parent"
+         android:background="@drawable/bg_selector"
+         android:layout_height="@dimen/dp_200"/>
+     <TextView
+         android:id="@+id/tv1"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_centerInParent="true"
+         android:gravity="center"
+         android:text="agaadfa"
+         android:textColor="@color/colorWright"
+         android:textSize="@dimen/sp_18" />
+
+     <TextView
+         android:id="@+id/tv2"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/tv1"
+         android:layout_centerInParent="true"
+         android:gravity="center"
+         android:text="#"
+         android:textColor="@color/colorWright"
+         android:textSize="@dimen/sp_18" />-->
+</LinearLayout>
